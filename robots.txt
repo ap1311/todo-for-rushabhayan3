@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Private / admin-only areas - never worth indexing
+Disallow: /admin.php
+Disallow: /data/
+Disallow: /includes/
+Disallow: /password.php
+Disallow: /logout.php
+Disallow: /router.php
+Disallow: /my_requests.php
+Disallow: /save_task.php
+Disallow: /task_action.php
+Disallow: /request_edit.php
+Disallow: /request_complete.php
+Disallow: /review_edit.php
+Disallow: /review_complete.php
+
+Sitemap: https://rushabhayan.is-best.net/sitemap.xml
